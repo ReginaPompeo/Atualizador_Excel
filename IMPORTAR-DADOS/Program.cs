@@ -10,7 +10,7 @@ namespace ManipulacaoPlanilha
         {
             ExcelPackage.LicenseContext = LicenseContext.NonCommercial; //License
 
-            string filePath = "G:\\CAMINHO\\DA\\PLANILHA\\Pasta1.xlsx";
+            string filePath = "C:\\Users\\ti1_febrapo\\Desktop\\LISTA PARA ATUALIZAR\\TEMPLATE-IMPORTAR_PESSOA.xlsx";
 
             // Carregar o arquivo Excel usando EPPlus
             FileInfo fileInfo = new FileInfo(filePath);
